@@ -10,7 +10,7 @@ CREATE TABLE tb_estudiantes_gmh (
 );
 
 -- Creación de la tabla tb_profesores_gmh
-CREATE TABLE tb_profesores_gmh (
+CREATE TABLE tbl_profesores_gmh (
     ProfesorID INTEGER PRIMARY KEY,
     Nombre VARCHAR2(255),
     Apellido VARCHAR2(255),
@@ -21,14 +21,14 @@ CREATE TABLE tb_profesores_gmh (
 );
 
 -- Creación de la tabla tb_asignaturas_gmh
-CREATE TABLE tb_asignaturas_gmh (
+CREATE TABLE tbl_asignaturas_gmh (
     AsignaturaID INTEGER PRIMARY KEY,
     Nombre VARCHAR2(255),
     Descripcion VARCHAR2(500)
 );
 
 -- Creación de la tabla tb_clases_gmh
-CREATE TABLE tb_clases_gmh (
+CREATE TABLE tbl_clases_gmh (
     ClaseID INTEGER PRIMARY KEY,
     AsignaturaID INTEGER,
     ProfesorID INTEGER,
@@ -38,7 +38,7 @@ CREATE TABLE tb_clases_gmh (
 );
 
 -- Creación de la tabla tb_notas_gmh
-CREATE TABLE tb_notas_gmh (
+CREATE TABLE tbl_notas_gmh (
     NotaID INTEGER PRIMARY KEY,
     EstudianteID INTEGER,
     AsignaturaID INTEGER,
