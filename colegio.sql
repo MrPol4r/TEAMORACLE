@@ -1,5 +1,5 @@
 -- Creación de la tabla tb_estudiantes_gmh
-CREATE TABLE tb_estudiantes_gmh (
+CREATE TABLE tbl_estudiantes_gmh (
     EstudianteID INTEGER PRIMARY KEY,
     Nombre VARCHAR2(255),
     Apellido VARCHAR2(255),
