@@ -1,3 +1,6 @@
+CREATE DATABASE Pedidos_Caer;
+USE Pedidos_Caer;
+
 CREATE TABLE tbl_Usuarios_CAER (
     ID_Usuario INT PRIMARY KEY,
     Nombre VARCHAR2(100),
@@ -19,12 +22,24 @@ CREATE TABLE tbl_Pedidos_CAER (
     Estado VARCHAR2(50),
     FOREIGN KEY (ID_Usuario) REFERENCES tbl_Usuarios_CAER(ID_Usuario)
 );
+
+CREATE TABLE tbl_Repartidor_CAER(
+    ID_Repartidor INT PRIMARY KEY,
+    Nombre VARCHAR2(200),
+    Apellido VARCHAR2(200),
+    DNI INT,
+    Placa VARCHAR2(6),
+    Telefono NUMBER (9)
+);
+
 CREATE TABLE tbl_Detalles_del_Pedido_CAER (
     ID_DetallePedido INT PRIMARY KEY,
     ID_Pedido INT,
     ID_Producto INT,
+    ID_Repartidor INT,
     Cantidad INT,
     Precio DECIMAL(10, 2),
     FOREIGN KEY (ID_Pedido) REFERENCES tbl_Pedidos_CAER(ID_Pedido),
-    FOREIGN KEY (ID_Producto) REFERENCES tbl_Productos_CAER(ID_Producto)
+    FOREIGN KEY (ID_Producto) REFERENCES tbl_Productos_CAER(ID_Producto),
+    FOREIGN KEY (ID_Repartidor) REFERNCES tbl_Repartirdor_Caer(ID_Repartidor)
 );
