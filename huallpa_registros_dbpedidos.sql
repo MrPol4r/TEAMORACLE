@@ -145,8 +145,8 @@ VALUES (3, 2, 2, 1, 39.99);
 INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, Cantidad, Precio)
 VALUES (4, 3, 4, 1, 99.99);
 
-INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, Cantidad, Precio
-
+INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, Cantidad, Precio)
+VALUES (5, 5, 5, 4, 78.99);
 
 
 INSERT INTO tbl_Repartidor_CAER (ID_Repartidor, Nombre, Apellido, DNI, Placa, Telefono)
