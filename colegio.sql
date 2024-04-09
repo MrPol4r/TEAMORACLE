@@ -33,8 +33,8 @@ CREATE TABLE tbl_clases_gmh (
     AsignaturaID INTEGER,
     ProfesorID INTEGER,
     Horario VARCHAR2(255),
-    FOREIGN KEY (AsignaturaID) REFERENCES tb_asignaturas_gmh(AsignaturaID),
-    FOREIGN KEY (ProfesorID) REFERENCES tb_profesores_gmh(ProfesorID)
+    FOREIGN KEY (AsignaturaID) REFERENCES tbl_asignaturas_gmh(AsignaturaID),
+    FOREIGN KEY (ProfesorID) REFERENCES tbl_profesores_gmh(ProfesorID)
 );
 
 -- Creación de la tabla tb_notas_gmh
@@ -44,6 +44,6 @@ CREATE TABLE tbl_notas_gmh (
     AsignaturaID INTEGER,
     Valor DECIMAL(5,2),
     Fecha DATE,
-    FOREIGN KEY (EstudianteID) REFERENCES tb_estudiantes_gmh(EstudianteID),
-    FOREIGN KEY (AsignaturaID) REFERENCES tb_asignaturas_gmh(AsignaturaID)
+    FOREIGN KEY (EstudianteID) REFERENCES tbl_estudiantes_gmh(EstudianteID),
+    FOREIGN KEY (AsignaturaID) REFERENCES tbl_asignaturas_gmh(AsignaturaID)
 );
