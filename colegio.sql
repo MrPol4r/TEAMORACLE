@@ -3,6 +3,8 @@ CREATE TABLE tb_estudiantes_gmh (
     EstudianteID INTEGER PRIMARY KEY,
     Nombre VARCHAR2(255),
     Apellido VARCHAR2(255),
+    Dni INTEGER,
+    Telefono INTEGER,
     FechaDeNacimiento DATE,
     CorreoElectronico VARCHAR2(255)
 );
@@ -12,6 +14,8 @@ CREATE TABLE tb_profesores_gmh (
     ProfesorID INTEGER PRIMARY KEY,
     Nombre VARCHAR2(255),
     Apellido VARCHAR2(255),
+    Dni INTEGER,
+    Telefono INTEGER,
     Especialidad VARCHAR2(255),
     CorreoElectronico VARCHAR2(255)
 );
