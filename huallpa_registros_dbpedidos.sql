@@ -112,6 +112,8 @@ VALUES (4, 'Reloj', 'Reloj analógico de acero inoxidable', 99.99, 20);
 INSERT INTO tbl_Productos_CAER (ID_Producto, Nombre, Descripcion, Precio, Stock)
 VALUES (5, 'Bolsa', 'Bolsa de cuero genuino', 49.99, 15);
 
+INSERT INTO tbl_Productos_CAER (ID_Producto, Nombre, Descripcion, Precio, Stock)
+VALUES (6, 'Correa', 'Correa de cuero', 20.99, 20);
 
 
 
