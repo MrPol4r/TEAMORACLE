@@ -132,6 +132,9 @@ VALUES (4, 4, TO_DATE('2024-04-08', 'YYYY-MM-DD'), 'Cancelado');
 INSERT INTO tbl_Pedidos_CAER (ID_Pedido, ID_Usuario, FechaPedido, Estado)
 VALUES (5, 5, TO_DATE('2024-04-08', 'YYYY-MM-DD'), 'Pendiente');
 
+INSERT INTO tbl_Pedidos_CAER (ID_Pedido, ID_Usuario, FechaPedido, Estado)
+VALUES (6, 5, TO_DATE('2024-04-08', 'YYYY-MM-DD'), 'Pendiente');
+
 
 
 
@@ -149,6 +152,9 @@ VALUES (4, 3, 4, 1, 99.99);
 
 INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, Cantidad, Precio)
 VALUES (5, 5, 5, 4, 78.99);
+
+INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, Cantidad, Precio)
+VALUES (6, 6, 5, 4, 78.99);
 
 
 INSERT INTO tbl_Repartidor_CAER (ID_Repartidor, Nombre, Apellido, DNI, Placa, Telefono)
