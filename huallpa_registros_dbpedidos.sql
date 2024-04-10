@@ -138,23 +138,23 @@ VALUES (6, 5, TO_DATE('2024-04-08', 'YYYY-MM-DD'), 'Pendiente');
 
 
 
-INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, Cantidad, Precio)
-VALUES (1, 1, 1, 2, 51.98);
+INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, ID_Repartidor, Cantidad, Precio)
+VALUES (1, 1, 1, 1, 2, 51.98);
 
-INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, Cantidad, Precio)
-VALUES (2, 1, 3, 1, 59.99);
+INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, ID_Repartidor, Cantidad, Precio)
+VALUES (2, 1, 3, 2, 1, 59.99);
 
-INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, Cantidad, Precio)
-VALUES (3, 2, 2, 1, 39.99);
+INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, ID_Repartidor, Cantidad, Precio)
+VALUES (3, 2, 2, 3, 1, 39.99);
 
-INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, Cantidad, Precio)
-VALUES (4, 3, 4, 1, 99.99);
+INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, ID_Repartidor, Cantidad, Precio)
+VALUES (4, 3, 4, 4, 1, 99.99);
 
-INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, Cantidad, Precio)
-VALUES (5, 5, 5, 4, 78.99);
+INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, ID_Repartidor, Cantidad, Precio)
+VALUES (5, 5, 5, 5, 4, 78.99);
 
-INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, Cantidad, Precio)
-VALUES (6, 6, 5, 4, 78.99);
+INSERT INTO tbl_Detalles_del_Pedido_CAER (ID_DetallePedido, ID_Pedido, ID_Producto, ID_Repartidor, Cantidad, Precio)
+VALUES (6, 6, 5, 5, 4, 78.99);
 
 
 INSERT INTO tbl_Repartidor_CAER (ID_Repartidor, Nombre, Apellido, DNI, Placa, Telefono)
