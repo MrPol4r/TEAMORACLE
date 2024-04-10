@@ -172,3 +172,17 @@ VALUES (4, 'Ana', 'Rodriguez', 456789012, 'JKL012', 445566778);
 INSERT INTO tbl_Repartidor_CAER (ID_Repartidor, Nombre, Apellido, DNI, Placa, Telefono)
 VALUES (5, 'Pedro', 'Sanchez', 567890123, 'MNO345', 556677889);
 
+INSERT INTO tbl_Resenas_Productos (ID_Resena, ID_Producto, ID_Usuario, Fecha_Resena, Puntuacion, Comentario) VALUES 
+(1, 1, 3, TO_DATE('2024-04-09', 'YYYY-MM-DD'), 4.5, '¡Producto excelente! Muy satisfecho con la calidad y el servicio.');
+
+INSERT INTO tbl_Resenas_Productos (ID_Resena, ID_Producto, ID_Usuario, Fecha_Resena, Puntuacion, Comentario) VALUES 
+(2, 2, 2, TO_DATE('2024-04-08', 'YYYY-MM-DD'), 3.8, 'El producto cumplió mis expectativas, aunque el envío tardó un poco más de lo esperado.');
+
+INSERT INTO tbl_Resenas_Productos (ID_Resena, ID_Producto, ID_Usuario, Fecha_Resena, Puntuacion, Comentario) VALUES 
+(3, 3, 1, TO_DATE('2024-04-07', 'YYYY-MM-DD'), 5.0, '¡Increíble! No puedo creer lo bueno que es este producto.');
+
+INSERT INTO tbl_Resenas_Productos (ID_Resena, ID_Producto, ID_Usuario, Fecha_Resena, Puntuacion, Comentario) VALUES 
+(4, 2, 2, TO_DATE('2024-04-06', 'YYYY-MM-DD'), 4.0, 'Buen producto, pero podría mejorar la entrega.');
+
+INSERT INTO tbl_Resenas_Productos (ID_Resena, ID_Producto, ID_Usuario, Fecha_Resena, Puntuacion, Comentario) VALUES 
+(5, 3, 5, TO_DATE('2024-04-05', 'YYYY-MM-DD'), 4.2, 'Me gustó el producto, aunque esperaba un poco más en cuanto a calidad. El servicio de entrega fue rápido.');
