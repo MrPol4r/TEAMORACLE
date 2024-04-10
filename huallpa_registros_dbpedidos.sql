@@ -104,7 +104,7 @@ INSERT INTO tbl_Productos_CAER (ID_Producto, Nombre, Descripcion, Precio, Stock)
 VALUES (2, 'Pantalón', 'Pantalón de mezclilla', 39.99, 50);
 
 INSERT INTO tbl_Productos_CAER (ID_Producto, Nombre, Descripcion, Precio, Stock)
-VALUES (3, 'Zapatos', 'Zapatos de cuero', 59.99, 30);
+VALUES (3, 'Zapatos', 'Zapatos de cuero', 59.99, 5);
 
 INSERT INTO tbl_Productos_CAER (ID_Producto, Nombre, Descripcion, Precio, Stock)
 VALUES (4, 'Reloj', 'Reloj analógico de acero inoxidable', 99.99, 20);
