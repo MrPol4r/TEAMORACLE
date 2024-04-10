@@ -13,6 +13,7 @@ CREATE TABLE tbl_Productos_CAER (
     Nombre VARCHAR2(200),
     Descripcion VARCHAR2(500),
     Precio DECIMAL(10, 2),
+    Costo DECIMAL(10, 2),
     Stock INT
 );
 CREATE TABLE tbl_Pedidos_CAER (
@@ -41,7 +42,7 @@ CREATE TABLE tbl_Detalles_del_Pedido_CAER (
     Precio DECIMAL(10, 2),
     FOREIGN KEY (ID_Pedido) REFERENCES tbl_Pedidos_CAER(ID_Pedido),
     FOREIGN KEY (ID_Producto) REFERENCES tbl_Productos_CAER(ID_Producto),
-    FOREIGN KEY (ID_Repartidor) REFERENCES tbl_Repartirdor_CAER(ID_Repartidor)
+    FOREIGN KEY (ID_Repartidor) REFERENCES tbl_Repartidor_CAER(ID_Repartidor)
 );
 
 CREATE TABLE tbl_Resenas_Productos_GMH (
