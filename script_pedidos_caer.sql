@@ -43,3 +43,14 @@ CREATE TABLE tbl_Detalles_del_Pedido_CAER (
     FOREIGN KEY (ID_Producto) REFERENCES tbl_Productos_CAER(ID_Producto),
     FOREIGN KEY (ID_Repartidor) REFERENCES tbl_Repartirdor_CAER(ID_Repartidor)
 );
+
+CREATE TABLE tbl_Resenas_Productos_GMH (
+    ID_Resena NUMBER PRIMARY KEY,
+    ID_Producto NUMBER,
+    ID_Usuario NUMBER,
+    Fecha_Resena DATE,
+    Puntuacion NUMBER(2,1), -- Puntuación de la reseña (por ejemplo, 4.5)
+    Comentario VARCHAR2(1000), -- Comentario de la reseña
+    FOREIGN KEY (ID_Producto) REFERENCES tbl_Productos_CAER(ID_Producto),
+    FOREIGN KEY (ID_Usuario) REFERENCES tbl_Usuarios_CAER(ID_Usuario)
+);
