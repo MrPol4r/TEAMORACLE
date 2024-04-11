@@ -1,5 +1,5 @@
 INSERT INTO tbl_profesores_gmh (ProfesorID, Nombre, Apellido, Dni, Telefono, Especialidad, CorreoElectronico)
-VALUES (1, 'Luis', 'Perez', 678901234, 6677889900, 'Matemáticas', 'luis@example.com');
+VALUES (1, 'Luis', 'Perez', 678901234, 6677889900, 'Matematicas', 'luis@example.com');
 
 INSERT INTO tbl_profesores_gmh (ProfesorID, Nombre, Apellido, Dni, Telefono, Especialidad, CorreoElectronico)
 VALUES (2, 'Laura', 'Garcia', 789012345, 7788990011, 'Ciencias', 'laura@example.com');
@@ -11,11 +11,11 @@ INSERT INTO tbl_profesores_gmh (ProfesorID, Nombre, Apellido, Dni, Telefono, Esp
 VALUES (4, 'Sofia', 'Martinez', 901234567, 9900112233, 'Literatura', 'sofia@example.com');
 
 INSERT INTO tbl_profesores_gmh (ProfesorID, Nombre, Apellido, Dni, Telefono, Especialidad, CorreoElectronico)
-VALUES (5, 'Javier', 'Lopez', 123456789, 1122334455, 'Física', 'javier@example.com');
+VALUES (5, 'Javier', 'Lopez', 123456789, 1122334455, 'Fisica', 'javier@example.com');
 
 
 INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion)
-VALUES (1, 'Matemáticas', 'Curso de matemáticas básicas');
+VALUES (1, 'Matematicas', 'Curso de matemáticas basicas');
 
 INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion)
 VALUES (2, 'Ciencias', 'Curso de ciencias naturales');
@@ -27,23 +27,23 @@ INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion)
 VALUES (4, 'Literatura', 'Curso de literatura universal');
 
 INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion)
-VALUES (5, 'Física', 'Curso de física clásica');
+VALUES (5, 'Fisica', 'Curso de física clásica');
 
 
 INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
-VALUES (1, 'María', 'Gómez', 987654321, 1122334455, TO_DATE('2001-02-10', 'YYYY-MM-DD'), 'maria@example.com');
+VALUES (1, 'Maria', 'Gomez', 987654321, 1122334455, TO_DATE('2001-02-10', 'YYYY-MM-DD'), 'maria@example.com');
 
 INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
-VALUES (2, 'José', 'Martínez', 876543210, 2233445566, TO_DATE('2000-07-15', 'YYYY-MM-DD'), 'jose@example.com');
+VALUES (2, 'Jose', 'Martinez', 876543210, 2233445566, TO_DATE('2000-07-15', 'YYYY-MM-DD'), 'jose@example.com');
 
 INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
-VALUES (3, 'Laura', 'Pérez', 765432109, 3344556677, TO_DATE('1999-11-20', 'YYYY-MM-DD'), 'laura@example.com');
+VALUES (3, 'Laura', 'Perez', 765432109, 3344556677, TO_DATE('1999-11-20', 'YYYY-MM-DD'), 'laura@example.com');
 
 INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
-VALUES (4, 'Pedro', 'López', 654321098, 4455667788, TO_DATE('2002-05-28', 'YYYY-MM-DD'), 'pedro@example.com');
+VALUES (4, 'Pedro', 'Lopez', 654321098, 4455667788, TO_DATE('2002-05-28', 'YYYY-MM-DD'), 'pedro@example.com');
 
 INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
-VALUES (5, 'Ana', 'Sánchez', 543210987, 5566778899, TO_DATE('2003-09-05', 'YYYY-MM-DD'), 'ana@example.com');
+VALUES (5, 'Ana', 'Sanchez', 543210987, 5566778899, TO_DATE('2003-09-05', 'YYYY-MM-DD'), 'ana@example.com');
 
 
 INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
@@ -53,7 +53,7 @@ INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
 VALUES (2, 2, 2, 'Martes 10:00 - 12:00');
 
 INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
-VALUES (3, 3, 3, 'Miércoles 08:00 - 10:00');
+VALUES (3, 3, 3, 'Miercoles 08:00 - 10:00');
 
 INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
 VALUES (4, 4, 4, 'Jueves 10:00 - 12:00');
@@ -101,7 +101,7 @@ INSERT INTO tbl_Productos_CAER (ID_Producto, Nombre, Descripcion, Precio, Stock)
 VALUES (1, 'Camisa', 'Camisa de algodón', 25.99, 100);
 
 INSERT INTO tbl_Productos_CAER (ID_Producto, Nombre, Descripcion, Precio, Stock)
-VALUES (2, 'Pantalón', 'Pantalón de mezclilla', 39.99, 50);
+VALUES (2, 'Pantalon', 'Pantalón de mezclilla', 39.99, 50);
 
 INSERT INTO tbl_Productos_CAER (ID_Producto, Nombre, Descripcion, Precio, Stock)
 VALUES (3, 'Zapatos', 'Zapatos de cuero', 59.99, 5);
