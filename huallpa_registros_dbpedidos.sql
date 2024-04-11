@@ -30,19 +30,19 @@ INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion)
 VALUES (5, 'Física', 'Curso de física clásica');
 
 
-INSERT INTO tb_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
+INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
 VALUES (1, 'María', 'Gómez', 987654321, 1122334455, TO_DATE('2001-02-10', 'YYYY-MM-DD'), 'maria@example.com');
 
-INSERT INTO tb_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
+INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
 VALUES (2, 'José', 'Martínez', 876543210, 2233445566, TO_DATE('2000-07-15', 'YYYY-MM-DD'), 'jose@example.com');
 
-INSERT INTO tb_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
+INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
 VALUES (3, 'Laura', 'Pérez', 765432109, 3344556677, TO_DATE('1999-11-20', 'YYYY-MM-DD'), 'laura@example.com');
 
-INSERT INTO tb_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
+INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
 VALUES (4, 'Pedro', 'López', 654321098, 4455667788, TO_DATE('2002-05-28', 'YYYY-MM-DD'), 'pedro@example.com');
 
-INSERT INTO tb_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
+INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
 VALUES (5, 'Ana', 'Sánchez', 543210987, 5566778899, TO_DATE('2003-09-05', 'YYYY-MM-DD'), 'ana@example.com');
 
 
