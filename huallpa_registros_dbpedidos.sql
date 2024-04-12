@@ -52,6 +52,8 @@ INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, 
 VALUES (5, 'Ana', 'Sanchez', 543210987, 5566778899, TO_DATE('2003-09-05', 'YYYY-MM-DD'), 'ana@example.com');
 
 
+
+
 INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
 VALUES (1, 1, 1, 'Lunes 08:00 - 10:00');
 
@@ -66,6 +68,26 @@ VALUES (4, 4, 4, 'Jueves 10:00 - 12:00');
 
 INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
 VALUES (5, 5, 5, 'Viernes 08:00 - 10:00');
+
+-- Insertar más registros en tbl_clases_gmh para un profesor que enseña múltiples asignaturas
+INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
+VALUES (6, 2, 1, 'Martes 08:00 - 10:00');
+
+INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
+VALUES (7, 3, 1, 'Miércoles 10:00 - 12:00');
+
+-- Insertar registros para un profesor diferente que enseña tres asignaturas diferentes
+INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
+VALUES (8, 1, 2, 'Lunes 10:00 - 12:00');
+
+INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
+VALUES (9, 4, 2, 'Jueves 08:00 - 10:00');
+
+INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
+VALUES (10, 5, 2, 'Viernes 10:00 - 12:00');
+
+
+
 
 
 INSERT INTO tbl_notas_gmh (NotaID, EstudianteID, AsignaturaID, Valor, Fecha)
