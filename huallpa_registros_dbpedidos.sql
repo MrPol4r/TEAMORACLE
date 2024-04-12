@@ -32,6 +32,9 @@ VALUES (4, 'Literatura', 'Curso de literatura universal',4);
 INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion, ProfesorID)
 VALUES (5, 'Fisica', 'Curso de física clásica',5);
 
+INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion, ProfesorID)
+VALUES (6, 'Arte', 'mejora tu creatividad',null);
+
 
 INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
 VALUES (1, 'Maria', 'Gomez', 987654321, 1122334455, TO_DATE('2001-02-10', 'YYYY-MM-DD'), 'maria@example.com');
