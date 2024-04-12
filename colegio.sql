@@ -7,7 +7,7 @@ CREATE TABLE tbl_estudiantes_gmh (
     Telefono INTEGER,
     FechaDeNacimiento DATE,
     CorreoElectronico VARCHAR2(255),
-    Genero VARCHAR2(10) CONSTRAINT chk_genero CHECK (Genero IN ('Masculino', 'Femenino', 'Otro'))
+    Genero VARCHAR2(10) CONSTRAINT chk_genero CHECK (Genero IN ('Masculino', 'Femenino' ))
 );
 
 
