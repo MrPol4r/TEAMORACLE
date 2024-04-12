@@ -1,4 +1,4 @@
--- Creaci髇 de la tabla tb_estudiantes_gmh
+-- Creaci贸n de la tabla tb_estudiantes_gmh
 CREATE TABLE tbl_estudiantes_gmh (
     EstudianteID INTEGER PRIMARY KEY,
     Nombre VARCHAR2(255),
@@ -6,10 +6,12 @@ CREATE TABLE tbl_estudiantes_gmh (
     Dni INTEGER,
     Telefono INTEGER,
     FechaDeNacimiento DATE,
-    CorreoElectronico VARCHAR2(255)
+    CorreoElectronico VARCHAR2(255),
+    Genero VARCHAR2(10) CONSTRAINT chk_genero CHECK (Genero IN ('Masculino', 'Femenino', 'Otro'))
 );
 
--- Creaci髇 de la tabla tb_profesores_gmh
+
+-- Creaci贸n de la tabla tb_profesores_gmh
 CREATE TABLE tbl_profesores_gmh (
     ProfesorID INTEGER PRIMARY KEY,
     Nombre VARCHAR2(255),
@@ -20,14 +22,14 @@ CREATE TABLE tbl_profesores_gmh (
     CorreoElectronico VARCHAR2(255)
 );
 
--- Creaci髇 de la tabla tb_asignaturas_gmh
+-- Creaci贸n de la tabla tb_asignaturas_gmh
 CREATE TABLE tbl_asignaturas_gmh (
     AsignaturaID INTEGER PRIMARY KEY,
     Nombre VARCHAR2(255),
     Descripcion VARCHAR2(500)
 );
 
--- Creaci髇 de la tabla tb_clases_gmh
+-- Creaci贸n de la tabla tb_clases_gmh
 CREATE TABLE tbl_clases_gmh (
     ClaseID INTEGER PRIMARY KEY,
     AsignaturaID INTEGER,
@@ -37,7 +39,7 @@ CREATE TABLE tbl_clases_gmh (
     FOREIGN KEY (ProfesorID) REFERENCES tbl_profesores_gmh(ProfesorID)
 );
 
--- Creaci髇 de la tabla tb_notas_gmh
+-- Creaci贸n de la tabla tb_notas_gmh
 CREATE TABLE tbl_notas_gmh (
     NotaID INTEGER PRIMARY KEY,
     EstudianteID INTEGER,
