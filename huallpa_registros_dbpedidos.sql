@@ -67,7 +67,7 @@ INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
 VALUES (4, 4, 4, 'Jueves 10:00 - 12:00');
 
 INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
-VALUES (5, 5, 5, 'Viernes 08:00 - 10:00');
+VALUES (5, 2, 5, 'Viernes 08:00 - 10:00');
 
 -- Insertar más registros en tbl_clases_gmh para un profesor que enseña múltiples asignaturas
 INSERT INTO tbl_clases_gmh (ClaseID, AsignaturaID, ProfesorID, Horario)
