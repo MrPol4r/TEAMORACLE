@@ -72,7 +72,7 @@ INSERT INTO tbl_notas_gmh (NotaID, EstudianteID, AsignaturaID, Valor, Fecha)
 VALUES (3, 3, 2, 9.0, TO_DATE('2024-04-08', 'YYYY-MM-DD'));
 
 INSERT INTO tbl_notas_gmh (NotaID, EstudianteID, AsignaturaID, Valor, Fecha)
-VALUES (4, 4, 2, 6.5, TO_DATE('2024-04-08', 'YYYY-MM-DD'));
+VALUES (4, 3, 2, 6.5, TO_DATE('2024-05-08', 'YYYY-MM-DD'));
 
 INSERT INTO tbl_notas_gmh (NotaID, EstudianteID, AsignaturaID, Valor, Fecha)
 VALUES (5, 5, 3, 8.0, TO_DATE('2024-04-08', 'YYYY-MM-DD'));
