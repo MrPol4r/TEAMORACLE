@@ -51,3 +51,12 @@ CREATE TABLE tbl_notas_gmh (
     FOREIGN KEY (EstudianteID) REFERENCES tbl_estudiantes_gmh(EstudianteID),
     FOREIGN KEY (AsignaturaID) REFERENCES tbl_asignaturas_gmh(AsignaturaID)
 );
+
+CREATE TABLE tbl_asistencia_gmh (
+    AsistenciaID INTEGER PRIMARY KEY,
+    EstudianteID INTEGER,
+    Fecha DATE,
+    Presente CHAR(1),
+    FOREIGN KEY (EstudianteID) REFERENCES tbl_estudiantes_gmh(EstudianteID)
+);
+
