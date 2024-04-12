@@ -13,6 +13,9 @@ VALUES (4, 'Sofia', 'Martinez', 901234567, 9900112233, 'Literatura', 'sofia@exam
 INSERT INTO tbl_profesores_gmh (ProfesorID, Nombre, Apellido, Dni, Telefono, Especialidad, CorreoElectronico)
 VALUES (5, 'Javier', 'Lopez', 123456789, 1122334455, 'Fisica', 'javier@example.com');
 
+INSERT INTO tbl_profesores_gmh (ProfesorID, Nombre, Apellido, Dni, Telefono, Especialidad, CorreoElectronico)
+VALUES (6, 'Juan', 'perez', 000000000, 0000000000, '', 'juan@example.com');
+
 
 INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion)
 VALUES (1, 'Matematicas', 'Curso de matemáticas basicas');
