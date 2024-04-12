@@ -26,7 +26,9 @@ CREATE TABLE tbl_profesores_gmh (
 CREATE TABLE tbl_asignaturas_gmh (
     AsignaturaID INTEGER PRIMARY KEY,
     Nombre VARCHAR2(255),
-    Descripcion VARCHAR2(500)
+    Descripcion VARCHAR2(500),
+    ProfesorID INTEGER,
+    CONSTRAINT fk_profesor FOREIGN KEY (ProfesorID) REFERENCES tbl_profesores_gmh(ProfesorID)
 );
 
 -- Creación de la tabla tb_clases_gmh
