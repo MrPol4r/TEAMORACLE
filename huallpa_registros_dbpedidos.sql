@@ -17,20 +17,20 @@ INSERT INTO tbl_profesores_gmh (ProfesorID, Nombre, Apellido, Dni, Telefono, Esp
 VALUES (6, 'Juan', 'perez', 000000000, 0000000000, '', 'juan@example.com');
 
 
-INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion)
-VALUES (1, 'Matematicas', 'Curso de matemáticas basicas');
+INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion, ProfesorID)
+VALUES (1, 'Matematicas', 'Curso de matemáticas basicas', 1);
 
-INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion)
-VALUES (2, 'Ciencias', 'Curso de ciencias naturales');
+INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion, ProfesorID)
+VALUES (2, 'Ciencias', 'Curso de ciencias naturales',2);
 
-INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion)
-VALUES (3, 'Historia', 'Curso de historia mundial');
+INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion, ProfesorID)
+VALUES (3, 'Historia', 'Curso de historia mundial',3);
 
-INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion)
-VALUES (4, 'Literatura', 'Curso de literatura universal');
+INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion, ProfesorID)
+VALUES (4, 'Literatura', 'Curso de literatura universal',4);
 
-INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion)
-VALUES (5, 'Fisica', 'Curso de física clásica');
+INSERT INTO tbl_asignaturas_gmh (AsignaturaID, Nombre, Descripcion, ProfesorID)
+VALUES (5, 'Fisica', 'Curso de física clásica',5);
 
 
 INSERT INTO tbl_estudiantes_gmh (EstudianteID, Nombre, Apellido, Dni, Telefono, FechaDeNacimiento, CorreoElectronico)
