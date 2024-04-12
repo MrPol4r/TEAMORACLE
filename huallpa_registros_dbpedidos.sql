@@ -83,6 +83,14 @@ VALUES (4, 3, 2, 6.5, TO_DATE('2024-05-08', 'YYYY-MM-DD'));
 INSERT INTO tbl_notas_gmh (NotaID, EstudianteID, AsignaturaID, Valor, Fecha)
 VALUES (5, 5, 3, 8.0, TO_DATE('2024-04-08', 'YYYY-MM-DD'));
 
+-- Insertar registros de ejemplo en la tabla de asistencia
+INSERT INTO tbl_asistencia_gmh (AsistenciaID, EstudianteID, Fecha, Presente) VALUES (1, 1, TO_DATE('2024-04-11', 'YYYY-MM-DD'), 'S');
+INSERT INTO tbl_asistencia_gmh (AsistenciaID, EstudianteID, Fecha, Presente) VALUES (2, 2, TO_DATE('2024-04-11', 'YYYY-MM-DD'), 'N');
+INSERT INTO tbl_asistencia_gmh (AsistenciaID, EstudianteID, Fecha, Presente) VALUES (3, 3, TO_DATE('2024-04-11', 'YYYY-MM-DD'), 'S');
+INSERT INTO tbl_asistencia_gmh (AsistenciaID, EstudianteID, Fecha, Presente) VALUES (4, 4, TO_DATE('2024-04-11', 'YYYY-MM-DD'), 'S');
+INSERT INTO tbl_asistencia_gmh (AsistenciaID, EstudianteID, Fecha, Presente) VALUES (5, 5, TO_DATE('2024-04-11', 'YYYY-MM-DD'), 'N');
+
+
 --Registros de pedidos
 
 INSERT INTO tbl_Usuarios_CAER (ID_Usuario, Nombre, CorreoElectronico, Contrasena, FechaCreacion)
